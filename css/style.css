@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family:kumbhSansRag;
+    src: url(../font/KumbhSans-Bold.ttf)
+}
+@font-face{
+    font-family:kumbhSansold ;
+    src: url(../font/KumbhSans-Regular.ttf)
+}
+.container{ 
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.main {
+    /* margin-left: 100px; */
+    /* margin-top: 200px; */
+    width: 260px; 
+}
+.main-text{
+    /* margin-left: 100px; */
+    /* margin-top: 10px; */
+     width: 260px; 
+}
+.the-first{
+
+height: 400px;
+width: 250px;
+background-color:white;
+border-radius: 10px;
+}
+.the-first:hover{
+     background-color: rgb(37, 71, 122);;
+}
+
+
+.Par1{
+    font-size: 15px;
+    font-family:KumbhSans-Bold ;
+    margin: 20px 30px;
+}
+.Par2{
+    font-size: 56px;
+    font-family:KumbhSans-Bold ;
+    margin: 20px 30px;
+}
+.Par3{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+margin-left: 30px;
+    line-height: 50px;
+}
+.Par4{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+margin-left: 30px;
+    line-height: 7px;
+}
+.Par5{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+   margin-left: 30px;
+    line-height: 3;
+}
+.Par6{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+   margin-left: 30px;
+    line-height: 3;
+    margin-bottom: 60px;
+}
+.button{
+    margin-top: 50px;
+    width: 10px;
+margin-left: 10px;
+    background-color: rgb(78, 78, 116);
+}
+.the-second{
+    margin-left: 20px;
+height: 400px;
+width: 250px;
+background-color: white;
+border-radius: 10px;
+}
+.the-second:hover{
+    background-color: rgb(37, 71, 122);
+}
+.word{
+    font-size: 15px;
+    font-family:KumbhSans-Bold ;
+    margin: 20px 30px;
+}
+.price{
+    font-size: 56px;
+    font-family:KumbhSans-Bold ;
+    margin: 20px 30px;
+}
+.latter{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+margin-left: 30px;
+    line-height: 50px;
+    
+}
+.plan{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+margin-left: 30px;
+    line-height: 7px;
+}
+.GB{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+   margin-left: 30px;
+    line-height: 3;
+}
+.control{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+   margin-left: 30px;
+    line-height: 3;
+    margin-bottom: 60px;
+
+}
+.the-thired{
+    margin-left: 20px;
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.the-thired:hover{
+    background-color: rgb(37, 71, 122);
+}
+.word-2{
+    font-size: 15px;
+    font-family:KumbhSans-Bold ;
+    margin: 20px 30px;
+}
+.price-2{
+    font-size: 56px;
+    font-family:KumbhSans-Bold ;
+    margin: 20px 30px;
+}
+.latter-2{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+margin-left: 30px;
+    line-height: 50px;
+}
+
+.plan-2{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+margin-left: 30px;
+    line-height: 7px;
+}
+
+.GB-2{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+   margin-left: 30px;
+    line-height: 3;
+}
+
+.control-2{
+    font-size: 16px;
+    font-family:KumbhSans-Regular ;
+   margin-left: 30px;
+    line-height: 3;
+    margin-bottom: 60px;
+}
+.project{
+display: flex;
+/* flex-direction: row; */
+margin-left: 100;
+ justify-content: space-between; 
+}
+.get-started{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    height: 50px;
+width: 130px;
+    background-color:  rgb(37, 71, 122);
+    border-radius: 1000px;
+    color: white;
+    cursor: pointer;
+box-shadow: 20px 8px 30px;
+}
+.get-started:hover{
+background-color: rgb(173, 223, 226);
+}
+.logo{
+     margin-top: 100px; 
+    margin-left: 50px;
+    
+}
+
+.a1{
+  
+     margin-top: -30px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    height: 50px;
+width: 130px;
+    background-color:rgb(236, 240, 245);
+    border-radius: 1000px;
+    color: rgb(17, 114, 206); 
+    cursor: pointer;
+
+
+}
+/* .a1:hover{ */
+    /* background-color: rgb(173, 223, 226); */
+
+/* } */
+.a2{
+
+     margin-top: -30px; 
+    margin-bottom: 500px;
+    margin-left: 80px;
+    height: 50px;
+width: 130px;
+    background-color:  rgb(236, 240, 245);
+    border-radius: 1000px;
+    color: rgb(17, 114, 206);
+    cursor: pointer;
+}
+.a3{
+    margin-top: -30px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    height: 50px;
+width: 130px;
+    background-color: rgb(236, 240, 245);
+    border-radius: 1000px;
+    color: rgb(17, 114, 206);
+    cursor: pointer;
+}
+
+
+.EB{
+    display: flex
+}
+.nom1{
+    background-color:  rgb(41, 39, 39);
+    color: white;
+    margin-top: 200px;
+    margin-left: 100px; 
+    width: 50px;
+    height: 70px;
+    border-radius: 10px;
+    /* padding-left: 10px; */
+    padding: 30px;
+}
+.shap4{
+     /* background-color: rgb(41, 39, 39);  */
+    /* width: 5000px; */
+    /* height: 2500px; */
+      padding: 10px;   
+    display: flex;
+}
+.nom2{
+    background-color:  rgb(41, 39, 39);
+    color: white;
+     margin-top: 200px; 
+    margin-left: 100px; 
+    width: 50px;
+    height: 70px;
+    border-radius: 10px;
+    /* padding-left: 10px; */
+    padding: 30px;
+}
+.nom3{
+    background-color: rgb(168, 157, 157);
+    color: white;
+    margin-top: 200px;
+    margin-left: 100px; 
+    width: 50px;
+    height: 70px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.nom4{
+    background-color: rgb(168, 157, 157);
+    color: white;
+    margin-top: 200px;
+    margin-left: 100px; 
+    width: 50px;
+    height: 70px;
+    border-radius: 10px;
+     padding-left: 10px; 
+}
+.shape{
+       margin-top: 200px;    
+     margin-bottom: 1000px;  
+    margin-left: 500px;
+    height: 50px;
+width: 130px;
+    background-color:  rgb(37, 71, 122);
+    border-radius: 1000px;
+     color: white; 
+     cursor: pointer;
+     box-shadow: 20px 8px 30px;
+}
+
+.shape:hover{
+    background-color: rgb(173, 223, 226);;
+}
